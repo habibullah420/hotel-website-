@@ -34,6 +34,25 @@ p {
  overflow: auto;
 }
 
+
+
+.bg-dark{
+    background: #333;
+    color: #f4f4f4;
+}
+
+
+
+.head{
+    color: #f7c08a;
+
+}
+
+.lead{
+font-size: 20px;
+}
+
+
 #navbar {
     background: #333;
     color: #fff;
@@ -76,3 +95,75 @@ p {
     background: #333; 
     color:#f7c08a;
 }
+
+
+/* showcase section  */
+
+#section1{
+    background-image: url(./img/showcase.jpg);
+    height: 600px;
+}
+
+ #section1 .content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+
+#section1 .content h1{
+    font-size: 50px;
+    line-height: 1.5em;
+}
+
+#section1 .content p{
+    line-height: 1em;
+    padding-bottom: 20px;
+}
+
+.btn{
+    display: inline-block;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    font-size: 18px;
+    border: none;
+
+}
+
+.btn-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.btn:hover{
+    background: #f7c08a;
+    color: #333;
+}
+
+
+
+#info {
+    height: 400px;
+}
+
+
+#info .info-pic{
+   float: left;
+   width: 50%;
+   background: url(./img/photo-1.jpg) no-repeat;
+   min-height: 100%;
+} 
+
+#info .info-tech{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+#info .info-tech p{
+    padding-bottom: 40px;
+}
+
